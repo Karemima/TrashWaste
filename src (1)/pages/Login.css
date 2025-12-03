@@ -1,0 +1,71 @@
+/* src/pages/Login.css */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #e8f5e9, #a5d6a7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+}
+
+.app-title {
+  color: #2e7d32;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #4caf50;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #388e3c;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a5d6a7;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #1b5e20;
+}

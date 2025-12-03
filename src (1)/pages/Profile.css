@@ -1,0 +1,49 @@
+/* src/pages/Profile.css */
+.profile-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e7d32;
+}
+
+.profile-card {
+  max-width: 600px;
+  margin: 100px auto 30px; /* beri margin atas supaya header tidak menutupi */
+  background-color: #e8f5e9;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.profile-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.profile-card .points {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-card h3 {
+  margin-bottom: 15px;
+}
+
+.achievement-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.achievement-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #c8e6c9;
+  font-size: 16px;
+}
+
+.achievement-list li.earned {
+  color: #1b5e20;
+  font-weight: 500;
+}
+
+.achievement-list li.locked {
+  color: #757575;
+}
