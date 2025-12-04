@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco Life Dashboard</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #dcedc1, #a8e6cf);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #2e7d32;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .logout-btn {
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .logout-btn:hover {
+      background-color: #1b5e20;
+    }
+  </style>
+</head>
+<body>
+  <h1>Selamat datang di EcoLife 🌿</h1>
+  <p>Kamu sudah login! Mulai jelajahi perjalanan hijau-mu.</p>
+
+  <button class="logout-btn" onclick="logout()">Logout</button>
+
+  <script>
+    function logout() {
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>

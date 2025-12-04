@@ -1,7 +1,7 @@
-import Profile from './pages/Profile';
+// src/App.jsx
+import React from 'react';
+import AppRoutes from './routes/AppRoutes';
 
-function App() {
-  return <Profile />;
+export default function App() {
+  return <AppRoutes />;
 }
-
-export default App;

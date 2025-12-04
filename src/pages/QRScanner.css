@@ -1,0 +1,73 @@
+/* src/pages/QRScanner.css */
+.qr-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e7d32;
+  text-align: center;
+  padding-top: 100px; /* supaya header tidak menutupi */
+}
+
+.scanner-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #e8f5e9;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.scanner-card h2 {
+  margin-bottom: 10px;
+}
+
+.scanner-card p {
+  margin-bottom: 20px;
+}
+
+.scanner-box {
+  position: relative;
+  height: 250px;
+  border: 3px dashed #2e7d32;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f8f3;
+  overflow: hidden;
+}
+
+.scan-line {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, transparent, #2e7d32, transparent);
+  animation: scan 2s infinite;
+}
+
+@keyframes scan {
+  0% { top: 0; }
+  50% { top: 100%; }
+  100% { top: 0; }
+}
+
+.mock-text {
+  color: #757575;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.scan-btn {
+  padding: 12px 25px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.scan-btn:hover {
+  background-color: #1b5e20;
+}
